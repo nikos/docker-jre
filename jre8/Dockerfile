@@ -1,4 +1,4 @@
-FROM n7lab/development-base
+FROM centos:7
 
 ENV JAVA_HOME=/opt/java
 
