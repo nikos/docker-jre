@@ -11,7 +11,7 @@ RUN \
         --silent \
         --show-error \
         --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-        http://download.oracle.com/otn-pub/java/jdk/9+181/serverjre-9_linux-x64_bin.tar.gz | tar xz && \
+        http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/serverjre-9.0.1_linux-x64_bin.tar.gz | tar xz && \
     mv jdk* java && \
     if [ ! -d "/opt/local/bin" ]; then mkdir -p "/opt/local/bin"; fi && \
     pushd local/bin && \

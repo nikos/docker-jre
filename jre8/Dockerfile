@@ -16,7 +16,7 @@ RUN \
         --silent \
         --show-error \
         --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-        http://download.oracle.com/otn-pub/java/jdk/8u144-b01/090f390dda5b47b9b721c7dfaa008135/server-jre-8u144-linux-x64.tar.gz | tar xz && \
+        http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/server-jre-8u151-linux-x64.tar.gz | tar xz && \
     mv jdk* java && \
     if [ ! -d "/opt/local/bin" ]; then mkdir -p "/opt/local/bin"; fi && \
     pushd local/bin && \
